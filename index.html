@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <script src="script.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
   </head>
@@ -12,7 +12,12 @@
 
     <script type="text/jsx">
       const app = document.getElementById('app')
-      ReactDOM.render(<h1>Develop. Preview. Ship. 🚀</h1>, app)
+
+      function Header() {
+        return <h1>Develop. Preview. Ship. 🚀</h1>
+      }
+
+      ReactDOM.render(<Header />) app)
     </script>
   </body>
 </html>
